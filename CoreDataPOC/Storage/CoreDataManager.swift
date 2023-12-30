@@ -96,16 +96,16 @@ public class CoreDataManager {
                                                     let newSet = NSMutableSet()
                                                     for case let relatedObject as NSManagedObject in set {
                                                         // Make sure the related object is in the same context
-                                                        let newRelatedObject = backgroundContext.object(with: relatedObject.objectID) ?? relatedObject
+                                                        let newRelatedObject = backgroundContext.object(with: relatedObject.objectID) 
                                                         newSet.add(newRelatedObject)
                                                     }
                                                     newElement.setValue(newSet, forKey: propertyName)
                                                 }
                                             } else {
                                                 // To-One relationship
-                                                var relation: Place = Place(context: backgroundContext)
-                                                guard let element = element as? Events,
-                                                let dic = element.place.toDictionary() else {
+                                                #warning("Need to revist it to make it with generics type")
+                                                let relation: Place = Place(context: backgroundContext)
+                                                guard let element = element as? Events else {
                                                     return
                                                 }
                                                 if let relatedObject = value as? NSManagedObject {

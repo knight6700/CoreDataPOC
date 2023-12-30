@@ -16,7 +16,7 @@ extension NSManagedObject {
     func toDictionary() -> [String: Any]? {
         var dictionary: [String: Any] = [:]
 
-        for (key, value) in entity.attributesByName {
+        for (key, _) in entity.attributesByName {
             if let attributeValue = self.value(forKey: key) {
                 dictionary[key] = attributeValue
             }
