@@ -1,4 +1,4 @@
-# Core Data Proof of Concept (POC)
+# Core Data Proof of Concept (POC) inProgress
 
 This is a simple Proof of Concept (POC) demonstrating basic operations using Core Data in Swift in my Example More generic.
 
