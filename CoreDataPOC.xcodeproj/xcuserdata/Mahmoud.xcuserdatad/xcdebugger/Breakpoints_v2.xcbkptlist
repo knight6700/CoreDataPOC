@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "81553952-745C-4882-9A5B-CEE4146782C7"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F2EF093F-F9B2-4E36-A989-506E6FA37777"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CoreDataPOC/Storage/CoreDataManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "117"
+            endingLineNumber = "117"
+            landmarkName = "saveElement(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "F2EF093F-F9B2-4E36-A989-506E6FA37777 - 10f68f7f46be5e1b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in closure #1 (__C.NSManagedObjectContext) -&gt; () in closure #1 (Swift.CheckedContinuation&lt;(), Swift.Error&gt;) -&gt; () in CoreDataPOC.CoreDataManager.saveElement&lt;&#x3c4;_0_0 where &#x3c4;_0_0: __C.NSManagedObject&gt;(&#x3c4;_0_0) async throws -&gt; ()"
+                  moduleName = "CoreDataPOC"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Mahmoud/Desktop/CoreDataPOC/CoreDataPOC/Storage/CoreDataManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "117"
+                  endingLineNumber = "117"
+                  offsetFromSymbolStart = "3964">
+               </Location>
+               <Location
+                  uuid = "F2EF093F-F9B2-4E36-A989-506E6FA37777 - 10f68f7f46be5e1b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in closure #1 (__C.NSManagedObjectContext) -&gt; () in closure #1 (Swift.CheckedContinuation&lt;(), Swift.Error&gt;) -&gt; () in CoreDataPOC.CoreDataManager.saveElement&lt;&#x3c4;_0_0 where &#x3c4;_0_0: __C.NSManagedObject&gt;(&#x3c4;_0_0) async throws -&gt; ()"
+                  moduleName = "CoreDataPOC"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Mahmoud/Desktop/CoreDataPOC/CoreDataPOC/Storage/CoreDataManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "117"
+                  endingLineNumber = "117"
+                  offsetFromSymbolStart = "3620">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0C3937FC-6A9C-4D48-B8CF-2D4406A16DC6"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CoreDataPOC/Storage/CoreDataManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "115"
+            endingLineNumber = "115"
+            landmarkName = "saveElement(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "0C3937FC-6A9C-4D48-B8CF-2D4406A16DC6 - 10f68f7f46be5fd5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in closure #1 (__C.NSManagedObjectContext) -&gt; () in closure #1 (Swift.CheckedContinuation&lt;(), Swift.Error&gt;) -&gt; () in CoreDataPOC.CoreDataManager.saveElement&lt;&#x3c4;_0_0 where &#x3c4;_0_0: __C.NSManagedObject&gt;(&#x3c4;_0_0) async throws -&gt; ()"
+                  moduleName = "CoreDataPOC"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Mahmoud/Desktop/CoreDataPOC/CoreDataPOC/Storage/CoreDataManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "115"
+                  endingLineNumber = "115"
+                  offsetFromSymbolStart = "3460">
+               </Location>
+               <Location
+                  uuid = "0C3937FC-6A9C-4D48-B8CF-2D4406A16DC6 - 10f68f7f46be5fd5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in closure #1 (__C.NSManagedObjectContext) -&gt; () in closure #1 (Swift.CheckedContinuation&lt;(), Swift.Error&gt;) -&gt; () in CoreDataPOC.CoreDataManager.saveElement&lt;&#x3c4;_0_0 where &#x3c4;_0_0: __C.NSManagedObject&gt;(&#x3c4;_0_0) async throws -&gt; ()"
+                  moduleName = "CoreDataPOC"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Mahmoud/Desktop/CoreDataPOC/CoreDataPOC/Storage/CoreDataManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "115"
+                  endingLineNumber = "115"
+                  offsetFromSymbolStart = "3728">
+               </Location>
+               <Location
+                  uuid = "0C3937FC-6A9C-4D48-B8CF-2D4406A16DC6 - 10f68f7f46be5fd5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in closure #1 (__C.NSManagedObjectContext) -&gt; () in closure #1 (Swift.CheckedContinuation&lt;(), Swift.Error&gt;) -&gt; () in CoreDataPOC.CoreDataManager.saveElement&lt;&#x3c4;_0_0 where &#x3c4;_0_0: __C.NSManagedObject&gt;(&#x3c4;_0_0) async throws -&gt; ()"
+                  moduleName = "CoreDataPOC"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Mahmoud/Desktop/CoreDataPOC/CoreDataPOC/Storage/CoreDataManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "115"
+                  endingLineNumber = "115"
+                  offsetFromSymbolStart = "3788">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A167421D-EADE-4E2D-A2B9-284F6376DA44"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CoreDataPOC/App/Event/EventList.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "20"
+            endingLineNumber = "20"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "A167421D-EADE-4E2D-A2B9-284F6376DA44 - 5cecbfde526fde5c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; SwiftUI.TupleView&lt;(SwiftUI._ConditionalContent&lt;&lt;&lt;opaque return type of SwiftUI.View.frame(minWidth: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, idealWidth: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, maxWidth: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, minHeight: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, idealHeight: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, maxHeight: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, alignment: SwiftUI.Alignment) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SwiftUI.View.frame(minWidth: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, idealWidth: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, maxWidth: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, minHeight: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, idealHeight: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, maxHeight: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, alignment: SwiftUI.Alignment) -&gt; some&gt;&gt;.0&gt;, SwiftUI.Text, SwiftUI.Text, SwiftUI.Text)&gt; in closure #1 (CoreDataPOC.EventEntity) -&gt; &lt;&lt;opaque return type of SwiftUI.View.swipeActions&lt;&#x3c4;_0_0 where &#x3c4;_1_0: SwiftUI.View&gt;(edge: SwiftUI.HorizontalEdge, allowsFullSwipe: Swift.Bool, content: () -&gt; &#x3c4;_1_0) -&gt; some&gt;&gt;.0 in closure #1 () -&gt; SwiftUI.ForEach&lt;Swift.Array&lt;CoreDataPOC.EventEntity&gt;, CoreDataPOC.EventEntity, &lt;&lt;opaque return type of SwiftUI.View.swipeActions&lt;&#x3c4;_0_0 where &#x3c4;_1_0: SwiftUI.View&gt;(edge: SwiftUI.HorizontalEdge, allowsFullSwipe: Swift.Bool, content: () -&gt; &#x3c4;_1_0) -&gt; some&gt;&gt;.0&gt; in closure #1 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.task(priority: Swift.TaskPriority, _: @Sendable () async -&gt; ()) -&gt; some&gt;&gt;.0 in CoreDataPOC.EventList.body.getter : some"
+                  moduleName = "CoreDataPOC"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Mahmoud/Desktop/CoreDataPOC/CoreDataPOC/App/Event/EventList.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "1128">
+               </Location>
+               <Location
+                  uuid = "A167421D-EADE-4E2D-A2B9-284F6376DA44 - 5cecbfde526fde5c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; SwiftUI.TupleView&lt;(SwiftUI._ConditionalContent&lt;&lt;&lt;opaque return type of SwiftUI.View.frame(minWidth: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, idealWidth: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, maxWidth: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, minHeight: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, idealHeight: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, maxHeight: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, alignment: SwiftUI.Alignment) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SwiftUI.View.frame(minWidth: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, idealWidth: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, maxWidth: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, minHeight: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, idealHeight: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, maxHeight: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, alignment: SwiftUI.Alignment) -&gt; some&gt;&gt;.0&gt;, SwiftUI.Text, SwiftUI.Text, SwiftUI.Text)&gt; in closure #1 (CoreDataPOC.EventEntity) -&gt; &lt;&lt;opaque return type of SwiftUI.View.swipeActions&lt;&#x3c4;_0_0 where &#x3c4;_1_0: SwiftUI.View&gt;(edge: SwiftUI.HorizontalEdge, allowsFullSwipe: Swift.Bool, content: () -&gt; &#x3c4;_1_0) -&gt; some&gt;&gt;.0 in closure #1 () -&gt; SwiftUI.ForEach&lt;Swift.Array&lt;CoreDataPOC.EventEntity&gt;, CoreDataPOC.EventEntity, &lt;&lt;opaque return type of SwiftUI.View.swipeActions&lt;&#x3c4;_0_0 where &#x3c4;_1_0: SwiftUI.View&gt;(edge: SwiftUI.HorizontalEdge, allowsFullSwipe: Swift.Bool, content: () -&gt; &#x3c4;_1_0) -&gt; some&gt;&gt;.0&gt; in closure #1 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.task(priority: Swift.TaskPriority, _: @Sendable () async -&gt; ()) -&gt; some&gt;&gt;.0 in CoreDataPOC.EventList.body.getter : some"
+                  moduleName = "CoreDataPOC"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Mahmoud/Desktop/CoreDataPOC/CoreDataPOC/App/Event/EventList.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "972">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

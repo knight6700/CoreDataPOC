@@ -11,7 +11,11 @@ import SwiftUI
 struct CoreDataPOCApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
-        }
+            EventList(
+                viewModel: .init(
+                    repositry: .live,
+                    addEvenViewModel: .init(repositry: .live)
+                )
+            )        }
     }
 }
