@@ -32,12 +32,14 @@ struct EventList: View {
                         Text(data.eventDate ?? .now, style: .date)
                         Text("lat: \(data.eventPlace.lat), lon: \(data.eventPlace.long)")
                     }
-                    .swipeActions(edge: .leading, allowsFullSwipe: true) {
+                    .swipeActions(edge: .trailing, allowsFullSwipe: true) {
                         Button {
                             viewModel.trigger(.delete(id: 0))
                         } label: {
                             Label("Delete", systemImage: "trash.fill")
+                                .foregroundStyle(.red)
                         }
+                    
                     }
                 }
             }
