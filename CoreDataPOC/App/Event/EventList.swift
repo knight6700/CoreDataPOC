@@ -34,14 +34,14 @@ struct EventList: View {
                     }
                     .swipeActions(edge: .trailing, allowsFullSwipe: true) {
                         Button {
-                            viewModel.trigger(.delete(id: 0))
+                            viewModel.trigger(.delete(id: data.id))
                         } label: {
                             Label("Delete", systemImage: "trash.fill")
                                 .foregroundStyle(.red)
                         }
-                    
                     }
                 }
+                .onDelete(perform: delete)
             }
             .toolbar {
                 ToolbarItem(placement: .topBarTrailing) {
@@ -50,6 +50,9 @@ struct EventList: View {
                     } label: {
                         Image(systemName: "plus.circle.fill")
                     }
+                }
+                ToolbarItem(placement: .navigationBarTrailing) {
+                    EditButton()
                 }
             }
             .refreshable {
@@ -66,6 +69,14 @@ struct EventList: View {
                 viewModel.trigger(.fetch)
             }
         }
+    }
+
+    func delete(at offsets: IndexSet) {
+        guard let index = offsets.first else {
+            return
+        }
+        
+        viewModel.trigger(.delete(id: viewModel.currentState.events[index].id))
     }
 }
 

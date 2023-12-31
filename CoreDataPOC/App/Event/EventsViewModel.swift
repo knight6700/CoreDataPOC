@@ -13,7 +13,7 @@ class EventsViewModel: ViewModelBase {
 
     enum Action: Equatable {
         case fetch
-        case delete(id: Int)
+        case delete(id: String)
     }
 
     var repositry: EventRepositry
@@ -40,12 +40,14 @@ class EventsViewModel: ViewModelBase {
         }
     }
     
-    func deleteEvent(id: Int) {
+    func deleteEvent(id: String) {
         Task { @MainActor [weak self] in
             guard let self else {
                 return
             }
-             let event = currentState.events[id] 
+            guard let event = currentState.events.first(where: {$0.id == id}) else {
+                return
+            }
             do {
                 _ = try await repositry.delete(event,id)
                 currentState.events.removeAll(where: {$0 == event})

@@ -57,7 +57,7 @@ struct EventEntity: Identifiable, Equatable, Hashable {
 struct EventRepositry {
     var fetch: () async throws -> [EventEntity]
     var saveEvent: (_ parameters: EventEntity) async throws -> Void
-    var delete: (_ parameters: EventEntity,_ index: Int) async throws -> Void
+    var delete: (_ parameters: EventEntity,_ id: String) async throws -> Void
 }
 
 extension EventRepositry {
