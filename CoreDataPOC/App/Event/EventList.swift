@@ -65,7 +65,7 @@ struct EventList: View {
             } content: {
                 AddEventView(viewModel: .init(repositry: .live))
             }
-            .task {
+            .onAppear {
                 viewModel.trigger(.fetch)
             }
         }

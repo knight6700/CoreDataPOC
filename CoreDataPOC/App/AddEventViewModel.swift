@@ -6,7 +6,12 @@
 //
 
 import Foundation
+import Combine
 
+enum AddEventStatus: Equatable {
+    case success
+    case fail
+}
 class AddEventViewModel: ViewModelBase {
     struct State: Equatable {
         var id: String = .empty
@@ -16,7 +21,7 @@ class AddEventViewModel: ViewModelBase {
         var long: Double = .zero
         var eventDate: Date = .now
         var numberOfParticipants: Int = .zero
-
+        
         var parameters: EventEntity {
             .init(
                 id: UUID().uuidString,
@@ -30,6 +35,11 @@ class AddEventViewModel: ViewModelBase {
                 numberOfParticipants: numberOfParticipants
             )
         }
+    }
+    private let resultSubject = PassthroughSubject<AddEventStatus?, Never>()
+
+    var resultPublisher: AnyPublisher<AddEventStatus?, Never> {
+        resultSubject.eraseToAnyPublisher()
     }
 
     enum Action: Equatable {
@@ -65,7 +75,10 @@ class AddEventViewModel: ViewModelBase {
             }
             do {
                 try await repositry.saveEvent(self.currentState.parameters)
+                resultSubject.send(.success)
+                
             } catch {
+                resultSubject.send(.fail)
                 print(error)
             }
         }
