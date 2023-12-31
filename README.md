@@ -1,4 +1,4 @@
-# Core Data Proof of Concept (POC)
+# [![iOS starter workflow](https://github.com/knight6700/CoreDataPOC/actions/workflows/ios.yml/badge.svg)](https://github.com/knight6700/CoreDataPOC/actions/workflows/ios.yml) Core Data Proof of Concept (POC) inProgress 
 
 This is a simple Proof of Concept (POC) demonstrating basic operations using Core Data in Swift in my Example More generic.
 
